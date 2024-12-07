@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <div class="paper container">
+        <header>
+            <h1 id="arriba">HITMAN</h1>
+        </header>
+        <nav>
+            <h5>
+             <ul>
+              <a href="#proceso" class="paper-btn btn-danger-outline">Proceso</a>
+              <a href="#interaccion" class="paper-btn btn-danger-outline">interaccion</a>
+              <a href="#juego" class="paper-btn btn-danger-outline">Juego</a>
+             </ul>
+            </h5>
+        </nav>
+        <article>
+        <p>sitio web dedicado a la mustra de todos los trabajos practicos echos en la materia pmiw, en el cual se mostraram, juegos, aventuras graficas, y claramente el mismo sitio web desde donde se meutra el contenido. Todo tratara sobre Hitman ya que en la comision 5 tuvimos que elegir una pelicula basada en un videojuego y el videojuego que agarre y sobre el que tratara este trabajo practico y sitio web sera Hitman, el cual es una pelicula sobre el Agente 47</p>
+        </article>
+     <!--cards (cartas donde aparecen cada parte) -->
+      <div class="row">
+        
+          <!-- carta 1-->
+          <article class="col-12 col">
+            <h2 id="proceso">procesos</h2>
+            <a href="#arriba" class="paper-btn btn-danger-outline">↑</a>
+            <div class="card">
+                <img src="imagenhit/proceso.jpg" alt="imagen de una persona pensando">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Proceso</h4>
+                  <h5 class="card-subtitle">video del proceso</h5>
+                  <p class="card-text">Primero empezaremos por el proceso y presentandome, mi nombre es Jonas Nehuen Corengia (legajo 118999/7), soy un alumno de la comision 5 y me encargue de hacer la Aventura Grafica, Juego y ahora tambien sitio web de la pelicula hitman, que esta basada en el videojuego del mismo nombre. Precionando el boton de aqui abajo iras a el video donde explicare como hice este mismo sitio web</p>
+                  <a href="https://youtu.be/DmSMNGr1FvM" class="paper-btn btn-danger-outline">ir a Ver!</a>
+                </div>
+              </div>
+          </article>
+            
+          <!-- carta 2-->
+          <article class="col-12 col">
+            <h2 id="interaccion">interaccion</h2>
+            <a href="#arriba" class="paper-btn btn-danger-outline">↑</a>
+            <div class="card">
+                <img src="imagenhit/hitman peli.jpg" alt="poster de la pelicula de hitman">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Aventura Grafica</h4>
+                  <h5 class="card-subtitle">hecho en p5js</h5>
+                  <p class="card-text">Esta misma seria la Aventura Grafica, la cual es una pequeña historia la cual fue creada a partir de hacer una vercion mas comprimida de la historia de la pelicula, pero agregando ciertas variaciones las cuales podras eleguir si hacerlas o no a partir de la decision que elijas, como neocities no deja publicar sonido, no dejo publicar un sitio con esta aventura, pero se arreglo haciando la publicacion por medio de github y ademas podras ir a ver el video donde se explica el codigo y como funciona.</p>
+                  <a href="https://youtu.be/qItkJrwyybY?si=etsgFfqwFU_FU5pq" class="paper-btn btn-danger-outline">ir a Ver!</a>
+                  <a href="https://corengiajonas.github.io/" class="paper-btn btn-danger-outline">Jugar</a>
+                  
+                </div>
+              </div>
+
+          </article>
+          <!-- carta 3 -->
+          <article class="col-12 col">
+            <h2 id="juego">juego</h2>
+            <a href="#arriba" class="paper-btn btn-danger-outline">↑</a>
+            <div class="card">
+                <img src="imagenhit/hitman.jpg" alt="imagen de hitman">
+              
+                <div class="card-body">
+                  <h4 class="card-title">Juego de Hitman</h4>
+                  <h5 class="card-subtitle">hecho en p5js</h5>
+                  <p class="card-text">este seria el juego el cual cree para la entrega del tp final (parte2 para ser mas precisos), el cual relataria una parte de la historia mostrandonos un breve conflicto al cual te enfrentaras para poder ayudar a el Agente 47</p>
+                  <div class="row flex-spaces child-borders">
+                    <label class="paper-btn margin btn-danger-outline" for="modal-1">jugar</label>
+                  </div>
+                  <input class="modal-state" id="modal-1" type="checkbox">
+                  <div class="modal">
+                    <label class="modal-bg" for="modal-1"></label>
+                    <div class="modal-body">
+                      <label class="btn-close" for="modal-1">X</label>
+                      <iframe src="demo_p5/index.html" frameborder="0" width="640" height="480"> </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </article>
+
+      </div>
+
+      
+    </div>
+    <footer>
+      <h6> fin de pagina sobre hitman</h6>
+    </footer>
+      
+  </body>
+</html>
